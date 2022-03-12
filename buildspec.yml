@@ -3,9 +3,6 @@ phases:
   install:
     runtime-versions:
       java: corretto11
-    commands:
-      - git submodule init
-      - git submodule update --recursive
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
